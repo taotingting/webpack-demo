@@ -1,0 +1,35 @@
+/* .title {
+    color: red
+}
+  
+:local(.title1) {
+    color: orange;
+}
+
+:global(.content){
+    color:yellow
+}
+
+.className{
+    background: blue
+}
+
+.title {
+    color: red;
+    composes:className
+} */
+/* 上面的优先级高？不是顺序的问题。。。？ */
+/* .title {
+    color: red;
+    composes:className1 from "./layout.css"
+} */
+
+
+
+@value colors: "./colors.css";
+@value blue, red, green from colors;
+.title {
+    color: red;
+    background-color: blue;
+  }
+  
