@@ -1,4 +1,6 @@
 # webpack-demo
+来源：https://github.com/ruanyf/webpack-demos
+
 # 创建项目
 1. 创建一个webpack-demo 的文件夹
 2. cd webpack-demo
