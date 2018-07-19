@@ -1,20 +1,18 @@
 {
-  "name": "demo8",
+  "name": "demo9",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --open --mode development",
+    "dev": "npx cross-env DEBUG=true webpack-dev-server --open",
     "build": "webpack -p"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "html-webpack-plugin": "^3.2.0",
-    "open-browser-webpack-plugin": "0.0.5",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "description": ""
 }
